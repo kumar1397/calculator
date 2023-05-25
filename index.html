@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <p class="text">this is a calculator</p>
+        <div class="context">
+            <div class="row">
+                <input class="input" type="text" />
+            </div>
+
+            <div class="row">
+                <button class="bt" id="ac">AC</button>
+                <button class="bt" id="plmi">+/-</button>
+                <button class="bt" id="perc">%</button>
+                <button class="bt" id="slash">/</button>
+            </div>
+
+            <div class="row">
+                <button class="bt" id="seven">7</button>
+                <button class="bt" id="eight">8</button>
+                <button class="bt" id="nine">9</button>
+                <button class="bt" id="star">*</button>
+            </div>
+            <div class="row">
+                <button class="bt" id="four"> 4</button>
+                <button class="bt" id="five">5</button>
+                <button class="bt" id="six">6</button>
+                <button class="bt" id="minus">-</button>
+            </div>
+            <div class="row">
+                <button class="bt" id="one">1</button>
+                <button class="bt" id="two">2</button>
+                <button class="bt" id="three">3</button>
+                <button class="bt" id="plus">+</button>
+            </div>
+            <div class="row">
+
+                <button class="bt" id="zero">0</button>
+                <button class="bt" id="dot">.</button>
+                <button class="bt" id="eq">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- <script>
+        let string = "";
+        let buttons = document.querySelectorAll('.bt');
+        Array.from(buttons).forEach((button)=>{
+            button.addEventListener('click',(e)=>{
+                console.log(e.target);
+                string = string + e.target.innerHtml;
+                document.querySelector('input').value = string;
+            })
+        }) 
+    </script> -->
+</body>
+
+</html>

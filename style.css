@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: block;
+    margin-left: 10cm; */
+}
+
+.bt {
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    box-shadow: -2px 3px grey;
+    border-radius: 10px;
+}
+
+.context {
+    background: orange;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#zero {
+    width: 122px;
+}
+
+#seven,
+#four,
+#one,
+#eight,
+#five,
+#two,
+#plmi,
+#perc,
+#nine,
+#six,
+#three,
+#dot,
+#slash,
+#plus,
+#minus,
+#star,
+#eq {
+    width: 57px;
+}
+
+.row {
+    margin-top: 7px;
+}
+
+#seven,
+#four,
+#one,
+#ac {
+    margin-right: 5px;
+}
+
+#eight,
+#five,
+#two,
+#plmi {
+    margin-right: 5px;
+}
+
+#nine,
+#six,
+#three,
+#perc {
+    margin-right: 5px;
+}
+
+#dot {
+    margin-left: 5px;
+}
+
+#eq {
+    margin-left: 5px;
+}
+
+.row input {
+    height: 50px;
+    width: 250px;
+    margin-bottom: 45px;
+    margin-top: 15px;
+    background-color: pink;
+
+}
+
+.text {
+    font-size: 50px;
+}
